@@ -12,7 +12,7 @@ export default function TodoList() {
     return localStorage.getItem("theme") === "dark";
   });
 
-  const API_URL = "http://127.0.0.1:8000/api/mytodo/";
+  const API_URL = "https://backenddacillo.onrender.com/api/mytodo/";
 
   useEffect(() => {
     document.body.className = darkMode ? "dark" : "";
